@@ -18,7 +18,7 @@ def explore(graph, current, visited):
     return True
 
 # Run the function
-connected_components_count({
+res = connected_components_count({
   0: [8, 1, 5],
   1: [0],
   5: [0, 8],
@@ -27,3 +27,4 @@ connected_components_count({
   3: [2, 4],
   4: [3, 2]
 }) # -> 2
+print(res)

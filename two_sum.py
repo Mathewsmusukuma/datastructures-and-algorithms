@@ -1,11 +1,10 @@
 def two_sum(nums, target):
+    hash_map = {}
+    for index, value in enumerate(nums):
+        diff = target - value
+        if diff in hash_map:
+            return [hash_map[diff], index]
+        hash_map[value] = index
+    return -1
 
-    log_dict = {}
-
-    for idx, el in enumerate(nums):
-        corresponding_el = target - el
-        if(corresponding_el in log_dict):
-            return [log_dict[corresponding_el], idx]
-        else:
-            log_dict[el] = idx
-    
+print(two_sum([9,10,2,4,5,8,],19))

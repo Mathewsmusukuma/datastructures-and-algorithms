@@ -6,5 +6,6 @@ def num_ways(n):
             else:
                 print(" ", end="")
         print("\r",)
+    return " "
 
-num_ways(0)
+print(num_ways(20))

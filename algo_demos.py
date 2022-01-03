@@ -17,7 +17,7 @@ def find_element(cards, query):
         if midle_number == query:
             return mid
         elif midle_number < query:
-            low = midle_number + 1
+            low = mid + 1
         else:
             high = mid - 1
     return -1

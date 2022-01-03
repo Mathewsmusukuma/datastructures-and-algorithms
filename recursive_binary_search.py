@@ -11,3 +11,4 @@ def recursive_binary_search(list, targe):
             return recursive_binary_search(list[midpoint +1:], targe)
         else:
             return recursive_binary_search(list[:midpoint], targe)
+            

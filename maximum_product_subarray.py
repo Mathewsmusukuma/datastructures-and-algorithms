@@ -9,4 +9,3 @@ def max_product(nums):
         result = max(result,currentMax)
 
     return result
-
