@@ -8,7 +8,7 @@ class Node:
         self.random = random
 
 class Solution:
-    def copyRandomList(self, head: Node) -> Node:
+    def copyRandomList(self, head: Node):
         old_to_copy = {None:None}
         current = head
         while current:
