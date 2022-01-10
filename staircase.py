@@ -8,4 +8,4 @@ def num_ways(n):
         print("\r",)
     return " "
 
-print(num_ways(20))
+print(num_ways(34))

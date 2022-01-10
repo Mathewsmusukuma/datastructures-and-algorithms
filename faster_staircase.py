@@ -5,4 +5,3 @@ def staircase(n,y):
         cache[i] += sum(cache[i - x] for x in y if i - x >= 0)
     
     return cache[n]
-    

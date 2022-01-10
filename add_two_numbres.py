@@ -28,4 +28,3 @@ def add_two_numbers(l1: ListNode, l2: ListNode):
 
     return dummy.next
             
-    
